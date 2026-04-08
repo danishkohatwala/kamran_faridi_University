@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kamran Faridi University — Learn Skills That Matter in the Age of AI</title>
+  <meta name="description" content="Kamran Faridi University offers cutting-edge courses in AI, Cybersecurity, DevOps, and more. Enroll today and future-proof your career." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- ====== NAVBAR ====== -->
+  <nav class="navbar" id="navbar">
+    <div class="container navbar__inner">
+      <a href="#hero" class="navbar__logo">
+        <div class="navbar__logo-icon">
+          <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M20 4L4 14v12l16 10 16-10V14L20 4z" stroke="currentColor" stroke-width="2" fill="none"/>
+            <path d="M20 4v22M4 14l16 12 16-12" stroke="currentColor" stroke-width="2" fill="none"/>
+          </svg>
+        </div>
+        <div class="navbar__logo-text">
+          <span class="navbar__logo-name">Kamran Faridi</span>
+          <span class="navbar__logo-sub">University</span>
+        </div>
+      </a>
+      <button class="navbar__toggle" id="nav-toggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="navbar__links" id="nav-links">
+        <li><a href="#hero" class="navbar__link active">Home</a></li>
+        <li><a href="#about" class="navbar__link">About</a></li>
+        <li><a href="#courses" class="navbar__link">Courses</a></li>
+        <li><a href="#contact" class="navbar__link">Contact</a></li>
+        <li><a href="#contact" class="navbar__cta-btn">Join Now</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ====== HERO ====== -->
+  <section class="hero" id="hero">
+    <div class="hero__bg">
+      <img src="assets/hero-bg.png" alt="" class="hero__bg-img" />
+      <div class="hero__overlay"></div>
+    </div>
+    <div class="hero__particles" id="particles"></div>
+    <div class="container hero__content">
+      <div class="hero__badge" data-anim="fade-up">
+        <span class="hero__badge-dot"></span>
+        Now Enrolling — Spring 2026
+      </div>
+      <h1 class="hero__title" data-anim="fade-up" data-delay="100">
+        Where You Will Learn<br/>
+        <span class="hero__title-accent">Skills That Matter</span><br/>
+        in the Age of AI
+      </h1>
+      <p class="hero__subtitle" data-anim="fade-up" data-delay="200">
+        Cutting-edge courses designed by industry leaders. From AI &amp; Cybersecurity to DevOps &amp; Video Editing — master the skills employers demand.
+      </p>
+      <div class="hero__actions" data-anim="fade-up" data-delay="300">
+        <a href="#courses" class="btn btn--primary btn--lg">
+          Explore Courses
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+        <a href="tel:+447412807508" class="btn btn--outline btn--lg">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+          Call Us Now
+        </a>
+      </div>
+      <div class="hero__stats" data-anim="fade-up" data-delay="400">
+        <div class="hero__stat">
+          <span class="hero__stat-num" data-count="7">0</span>
+          <span class="hero__stat-label">Expert-Led Courses</span>
+        </div>
+        <div class="hero__stat">
+          <span class="hero__stat-num" data-count="500">0</span><span class="hero__stat-plus">+</span>
+          <span class="hero__stat-label">Students Enrolled</span>
+        </div>
+        <div class="hero__stat">
+          <span class="hero__stat-num" data-count="95">0</span><span class="hero__stat-plus">%</span>
+          <span class="hero__stat-label">Employment Rate</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero__scroll">
+      <a href="#about" aria-label="Scroll down">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M19 12l-7 7-7-7"/></svg>
+      </a>
+    </div>
+  </section>
+
+  <!-- ====== ABOUT ====== -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="section-header" data-anim="fade-up">
+        <span class="section-header__tag">Who We Are</span>
+        <h2 class="section-header__title">Empowering the Next Generation of <span class="text-gold">Tech Leaders</span></h2>
+        <p class="section-header__desc">
+          At Kamran Faridi University, we believe education should be practical, accessible, and future-ready. Our programmes are designed by industry practitioners, not just academics.
+        </p>
+      </div>
+      <div class="about__grid">
+        <div class="about__card" data-anim="fade-up" data-delay="0">
+          <div class="about__card-icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="24" cy="24" r="20" stroke="currentColor" stroke-width="2"/><path d="M16 24l5 5 11-11" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h3>Industry-Driven Curriculum</h3>
+          <p>Every course is built around real-world skills that employers actively seek, with hands-on projects and case studies.</p>
+        </div>
+        <div class="about__card" data-anim="fade-up" data-delay="100">
+          <div class="about__card-icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M24 6v36M6 24h36" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="24" cy="24" r="8" stroke="currentColor" stroke-width="2"/><circle cx="24" cy="24" r="18" stroke="currentColor" stroke-width="2" stroke-dasharray="4 4"/></svg>
+          </div>
+          <h3>Global Perspective</h3>
+          <p>Connect with students and mentors worldwide. Our online-first approach brings the best minds together regardless of geography.</p>
+        </div>
+        <div class="about__card" data-anim="fade-up" data-delay="200">
+          <div class="about__card-icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10 38V22l14-12 14 12v16H10z" stroke="currentColor" stroke-width="2"/><path d="M20 38V30h8v8" stroke="currentColor" stroke-width="2"/><path d="M18 22h12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          </div>
+          <h3>Flexible Learning</h3>
+          <p>Study at your own pace with a blend of live sessions, recorded lectures, and interactive labs that fit your schedule.</p>
+        </div>
+        <div class="about__card" data-anim="fade-up" data-delay="300">
+          <div class="about__card-icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M24 8l4 8 9 1.5-6.5 6.5L32 33l-8-4-8 4 1.5-9-6.5-6.5L20 16l4-8z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+          </div>
+          <h3>Career-First Outcomes</h3>
+          <p>95% of our graduates land relevant roles within 6 months. We provide career coaching, CV reviews, and interview prep.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== COURSES ====== -->
+  <section class="courses" id="courses">
+    <div class="container">
+      <div class="section-header" data-anim="fade-up">
+        <span class="section-header__tag">Our Programmes</span>
+        <h2 class="section-header__title">Courses Designed for the <span class="text-gold">Future</span></h2>
+        <p class="section-header__desc">
+          Whether you're starting your career or levelling up, our expert-led courses cover the most in-demand fields in technology and business.
+        </p>
+      </div>
+      <div class="courses__grid">
+
+        <!-- Course 1: Social Networking -->
+        <article class="course-card" data-anim="fade-up" data-delay="0">
+          <div class="course-card__icon-wrap">
+            <svg class="course-card__icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="32" cy="20" r="8" stroke="currentColor" stroke-width="2.5"/>
+              <circle cx="14" cy="38" r="6" stroke="currentColor" stroke-width="2"/>
+              <circle cx="50" cy="38" r="6" stroke="currentColor" stroke-width="2"/>
+              <path d="M26 26l-8 8M38 26l8 8M20 38h24" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <div class="course-card__content">
+            <h3 class="course-card__title">Social Networking</h3>
+            <p class="course-card__desc">Master the art of building online communities, personal branding, and leveraging social platforms for business growth and influence.</p>
+            <div class="course-card__meta">
+              <span class="course-card__duration">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+                8 Weeks
+              </span>
+              <span class="course-card__level">Beginner</span>
+            </div>
+          </div>
+          <button class="course-card__enrol" data-course="Social Networking">Enrol Now</button>
+        </article>
+
+        <!-- Course 2: DevOps -->
+        <article class="course-card" data-anim="fade-up" data-delay="50">
+          <div class="course-card__icon-wrap">
+            <svg class="course-card__icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M16 32c0-8.837 7.163-16 16-16s16 7.163 16 16-7.163 16-16 16" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+              <path d="M48 32c0 8.837-7.163 16-16 16s-16-7.163-16-16" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="6 4"/>
+              <circle cx="32" cy="32" r="5" stroke="currentColor" stroke-width="2"/>
+              <path d="M32 27v-6M32 43v-6M27 32h-6M43 32h-6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <div class="course-card__content">
+            <h3 class="course-card__title">DevOps</h3>
+            <p class="course-card__desc">Learn CI/CD pipelines, containerisation with Docker & Kubernetes, infrastructure as code, and cloud deployment at scale.</p>
+            <div class="course-card__meta">
+              <span class="course-card__duration">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+                12 Weeks
+              </span>
+              <span class="course-card__level">Intermediate</span>
+            </div>
+          </div>
+          <button class="course-card__enrol" data-course="DevOps">Enrol Now</button>
+        </article>
+
+        <!-- Course 3: English -->
+        <article class="course-card" data-anim="fade-up" data-delay="100">
+          <div class="course-card__icon-wrap">
+            <svg class="course-card__icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="12" y="14" width="40" height="36" rx="4" stroke="currentColor" stroke-width="2.5"/>
+              <path d="M24 28h16M24 36h10" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+              <text x="32" y="24" text-anchor="middle" fill="currentColor" font-size="10" font-weight="700" font-family="Inter, sans-serif">Aa</text>
+            </svg>
+          </div>
+          <div class="course-card__content">
+            <h3 class="course-card__title">English</h3>
+            <p class="course-card__desc">Develop professional communication skills — from business writing and presentations to advanced grammar for the global workplace.</p>
+            <div class="course-card__meta">
+              <span class="course-card__duration">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+                10 Weeks
+              </span>
+              <span class="course-card__level">All Levels</span>
+            </div>
+          </div>
+          <button class="course-card__enrol" data-course="English">Enrol Now</button>
+        </article>
+
+        <!-- Course 4: Video Editing -->
+        <article class="course-card" data-anim="fade-up" data-delay="150">
+          <div class="course-card__icon-wrap">
+            <svg class="course-card__icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="8" y="16" width="48" height="32" rx="4" stroke="currentColor" stroke-width="2.5"/>
+              <polygon points="28,26 28,42 42,34" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linejoin="round"/>
+              <path d="M8 12h12M44 12h12M20 12v4M44 12v4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <div class="course-card__content">
+            <h3 class="course-card__title">Video Editing</h3>
+            <p class="course-card__desc">Create stunning video content using industry tools. Learn colour grading, motion graphics, sound design, and storytelling techniques.</p>
+            <div class="course-card__meta">
+              <span class="course-card__duration">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+                10 Weeks
+              </span>
+              <span class="course-card__level">Beginner</span>
+            </div>
+          </div>
+          <button class="course-card__enrol" data-course="Video Editing">Enrol Now</button>
+        </article>
+
+        <!-- Course 5: Profiling -->
+        <article class="course-card" data-anim="fade-up" data-delay="200">
+          <div class="course-card__icon-wrap">
+            <svg class="course-card__icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="28" cy="26" r="10" stroke="currentColor" stroke-width="2.5"/>
+              <path d="M36 32l10 10" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+              <path d="M18 44c0-5.523 4.477-10 10-10s10 4.477 10 10" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+              <circle cx="28" cy="23" r="4" stroke="currentColor" stroke-width="2"/>
+            </svg>
+          </div>
+          <div class="course-card__content">
+            <h3 class="course-card__title">Profiling</h3>
+            <p class="course-card__desc">Understand behavioural analysis, data-driven profiling, and user research techniques critical for security and UX roles.</p>
+            <div class="course-card__meta">
+              <span class="course-card__duration">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+                8 Weeks
+              </span>
+              <span class="course-card__level">Intermediate</span>
+            </div>
+          </div>
+          <button class="course-card__enrol" data-course="Profiling">Enrol Now</button>
+        </article>
+
+        <!-- Course 6: AI Product & Project Management -->
+        <article class="course-card" data-anim="fade-up" data-delay="250">
+          <div class="course-card__icon-wrap">
+            <svg class="course-card__icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <ellipse cx="32" cy="28" rx="14" ry="12" stroke="currentColor" stroke-width="2.5"/>
+              <path d="M24 28c0-2 2-6 8-6s8 4 8 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              <circle cx="28" cy="26" r="1.5" fill="currentColor"/>
+              <circle cx="36" cy="26" r="1.5" fill="currentColor"/>
+              <path d="M22 38l-4 8h28l-4-8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M28 38v8M36 38v8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <div class="course-card__content">
+            <h3 class="course-card__title">AI Product &amp; Project Management</h3>
+            <p class="course-card__desc">Lead AI-powered products from ideation to launch. Master agile workflows, stakeholder management, and AI product strategy.</p>
+            <div class="course-card__meta">
+              <span class="course-card__duration">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+                12 Weeks
+              </span>
+              <span class="course-card__level">Advanced</span>
+            </div>
+          </div>
+          <button class="course-card__enrol" data-course="AI Product & Project Management">Enrol Now</button>
+        </article>
+
+        <!-- Course 7: Cybersecurity -->
+        <article class="course-card" data-anim="fade-up" data-delay="300">
+          <div class="course-card__icon-wrap">
+            <svg class="course-card__icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M32 8L12 18v14c0 12 8.5 20 20 24 11.5-4 20-12 20-24V18L32 8z" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
+              <rect x="26" y="28" width="12" height="10" rx="2" stroke="currentColor" stroke-width="2"/>
+              <path d="M28 28v-4a4 4 0 118 0v4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              <circle cx="32" cy="33" r="1.5" fill="currentColor"/>
+            </svg>
+          </div>
+          <div class="course-card__content">
+            <h3 class="course-card__title">Cybersecurity</h3>
+            <p class="course-card__desc">Defend against modern threats. Learn penetration testing, network security, threat intelligence, and incident response.</p>
+            <div class="course-card__meta">
+              <span class="course-card__duration">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+                14 Weeks
+              </span>
+              <span class="course-card__level">Intermediate</span>
+            </div>
+          </div>
+          <button class="course-card__enrol" data-course="Cybersecurity">Enrol Now</button>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== CONTACT ====== -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="section-header" data-anim="fade-up">
+        <span class="section-header__tag">Get In Touch</span>
+        <h2 class="section-header__title">Ready to Start Your <span class="text-gold">Journey</span>?</h2>
+        <p class="section-header__desc">
+          Have questions or ready to enrol? Fill in the form below or call us directly. We'd love to hear from you.
+        </p>
+      </div>
+      <div class="contact__grid">
+        <form class="contact__form" id="contact-form" data-anim="fade-up">
+          <div class="form-group">
+            <label for="form-name">Full Name</label>
+            <input type="text" id="form-name" name="name" placeholder="John Doe" required />
+          </div>
+          <div class="form-group">
+            <label for="form-email">Email Address</label>
+            <input type="email" id="form-email" name="email" placeholder="john@example.com" required />
+          </div>
+          <div class="form-group">
+            <label for="form-phone">Phone Number</label>
+            <input type="tel" id="form-phone" name="phone" placeholder="+44 7412 807508" />
+          </div>
+          <div class="form-group">
+            <label for="form-course">Course of Interest</label>
+            <select id="form-course" name="course">
+              <option value="">Select a course…</option>
+              <option value="Social Networking">Social Networking</option>
+              <option value="DevOps">DevOps</option>
+              <option value="English">English</option>
+              <option value="Video Editing">Video Editing</option>
+              <option value="Profiling">Profiling</option>
+              <option value="AI Product & Project Management">AI Product &amp; Project Management</option>
+              <option value="Cybersecurity">Cybersecurity</option>
+            </select>
+          </div>
+          <button type="submit" class="btn btn--primary btn--lg btn--full" id="form-submit">
+            Submit Application
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/></svg>
+          </button>
+        </form>
+        <div class="contact__info" data-anim="fade-up" data-delay="150">
+          <div class="contact__info-card">
+            <div class="contact__info-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+            </div>
+            <div>
+              <h4>Call Us</h4>
+              <a href="tel:+447412807508" class="contact__phone">+44 7412 807508</a>
+              <p>Mon–Fri, 9 AM – 6 PM (GMT)</p>
+            </div>
+          </div>
+          <div class="contact__info-card">
+            <div class="contact__info-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </div>
+            <div>
+              <h4>Email Us</h4>
+              <a href="mailto:admissions@kamranfaridiuni.com">admissions@kamranfaridiuni.com</a>
+              <p>We reply within 24 hours</p>
+            </div>
+          </div>
+          <div class="contact__info-card">
+            <div class="contact__info-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <div>
+              <h4>Visit Us</h4>
+              <p>Online-first university<br/>Global access, anywhere</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== FOOTER ====== -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <div class="navbar__logo">
+          <div class="navbar__logo-icon">
+            <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M20 4L4 14v12l16 10 16-10V14L20 4z" stroke="currentColor" stroke-width="2" fill="none"/>
+              <path d="M20 4v22M4 14l16 12 16-12" stroke="currentColor" stroke-width="2" fill="none"/>
+            </svg>
+          </div>
+          <div class="navbar__logo-text">
+            <span class="navbar__logo-name">Kamran Faridi</span>
+            <span class="navbar__logo-sub">University</span>
+          </div>
+        </div>
+        <p class="footer__tagline">Empowering learners worldwide with skills for the AI age.</p>
+      </div>
+      <div class="footer__links">
+        <div class="footer__col">
+          <h4>Quick Links</h4>
+          <a href="#hero">Home</a>
+          <a href="#about">About</a>
+          <a href="#courses">Courses</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="footer__col">
+          <h4>Courses</h4>
+          <a href="#courses">Social Networking</a>
+          <a href="#courses">DevOps</a>
+          <a href="#courses">Cybersecurity</a>
+          <a href="#courses">AI Management</a>
+        </div>
+        <div class="footer__col">
+          <h4>Contact</h4>
+          <a href="tel:+447412807508">+44 7412 807508</a>
+          <a href="mailto:admissions@kamranfaridiuni.com">Email Us</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="container">
+        <p>&copy; 2026 Kamran Faridi University. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ====== MODAL ====== -->
+  <div class="modal-overlay" id="modal-overlay">
+    <div class="modal" id="modal">
+      <button class="modal__close" id="modal-close" aria-label="Close modal">&times;</button>
+      <div class="modal__icon">
+        <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="32" cy="32" r="28" stroke="currentColor" stroke-width="2.5"/>
+          <path d="M20 32l8 8 16-16" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </div>
+      <h3 class="modal__title">Application Submitted!</h3>
+      <p class="modal__text">Thank you for your interest in <strong id="modal-course">our courses</strong>. We'll be in touch within 24 hours.</p>
+      <p class="modal__text">Or call us now:</p>
+      <a href="tel:+447412807508" class="btn btn--primary btn--lg btn--full">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+        +44 7412 807508
+      </a>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
